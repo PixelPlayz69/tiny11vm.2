@@ -20,3 +20,5 @@ Docker installed
 Tiny11 ISO (for initial installation)
 Modern web browser (for noVNC access)
 # 🚀 Installation
+```bash
+#1 git clone https://github.com/PixelPlayz69/tiny11vm.2
