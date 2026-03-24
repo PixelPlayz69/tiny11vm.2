@@ -21,4 +21,16 @@ Tiny11 ISO (for initial installation)
 Modern web browser (for noVNC access)
 # 🚀 Installation
 ```bash
-#1 git clone https://github.com/PixelPlayz69/tiny11vm.2
+git clone https://github.com/PixelPlayz69/tiny11vm.2
+
+cd tiny11vm.2
+
+docker build -t windows10-vm .
+
+docker run -it --rm \
+  --device /dev/kvm \
+  -p 6080:6080 \
+  -p 3389:3389 \
+  -v windows_data:/data \
+  -v windows_iso:/iso \
+  windows10-vm
