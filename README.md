@@ -20,9 +20,9 @@ Docker installed
 Tiny11 ISO (for initial installation)
 Modern web browser (for noVNC access)
 # 🚀 Installation
-```bash
+```
 git clone https://github.com/PixelPlayz69/tiny11vm.2
-
+```
 cd tiny11vm.2
 
 docker build -t windows10-vm .
