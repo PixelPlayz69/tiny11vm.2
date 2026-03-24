@@ -32,7 +32,7 @@ cd tiny11vm.2
 ```
 docker build -t windows10-vm .
 ```
-### 4. Install ISO ro Start Again
+### 4. Install ISO or Start Again
 ```
 docker run -it --rm \
   --device /dev/kvm \
